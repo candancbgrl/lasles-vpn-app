@@ -7,10 +7,18 @@ import  {Planning}  from './components/Planning'
 import  {GlobalNetwork}  from './components/GlobalNetwork'
 import  {Comment}  from './components/Comment'
 import  {SubcribeCard}  from './components/SubcribeCard'
+import { ThemeProvider, createTheme } from '@mui/material/styles';
 
+
+const theme = createTheme({
+  typography: {
+    fontFamily: 'Rubik, sans-serif', // Örneğin Arial fontunu kullanıyoruz
+  },
+});
 
 function App() {
   return (
+    <ThemeProvider theme={theme}>
     <div className="container">
       <Navbar/>
       <HomePage/>
@@ -20,9 +28,8 @@ function App() {
       <GlobalNetwork/>
       <Comment/>
       <SubcribeCard/>
-      
-
     </div>
+    </ThemeProvider>
   );
 }
 

@@ -5,7 +5,6 @@ import {
 
 //Navbar
 export const ListItemStyle = styled(ListItem)(({ theme }) => ({
-    fontFamily: 'Rubik, sans-serif',
     '&:hover': {
         backgroundColor: '#F53838',
         color: '#fff',
@@ -13,7 +12,6 @@ export const ListItemStyle = styled(ListItem)(({ theme }) => ({
 }));
 
 export const NavbarItem = styled(Typography)(({ theme }) => ({
-    fontFamily: 'Rubik, sans-serif',
     color: '#4F5665',
     fontWeight: 'normal',
     '&:hover': {
@@ -23,7 +21,6 @@ export const NavbarItem = styled(Typography)(({ theme }) => ({
 }));
 
 export const SignUp = styled(Button)<{ isSelected?: number, isSelect?: boolean, }>(({ theme, isSelect, isSelected }) => ({
-    fontFamily: 'Rubik, sans-serif',
     width: isSelect ? '180px' : '150px', height: isSelect ? '50px' : '60px',
     borderRadius: 100, borderWidth: isSelect ? 3 : 2,
     borderColor: '#F53838',
@@ -31,7 +28,6 @@ export const SignUp = styled(Button)<{ isSelected?: number, isSelect?: boolean, 
 }));
 
 export const HeaderFirst = styled(Typography)<{ isVpn?: boolean }>(({ theme, isVpn }) => ({
-    fontFamily: 'Rubik, sans-serif',
     fontWeight: isVpn ? 'bold' : '540'
 }));
 
@@ -43,7 +39,6 @@ export const HeaderText = styled(Typography)(({ theme }) => ({
         lineHeight: '40px',
         paddingLeft: 20,
     },
-    fontFamily: 'Rubik, sans-serif',
     fontWeight: 'normal',
     lineHeight: '80px'
 }));
@@ -51,14 +46,10 @@ export const HeaderText = styled(Typography)(({ theme }) => ({
 export const GetStartedButton = styled(Button)(({ theme }) => ({
     borderRadius: 10, width: '250px', height: '60px',
     boxShadow: '5px 5px 30px 1px red', marginTop: 20,
-    [theme.breakpoints.down('md')]: {
-
-    },
 }));
 
 export const HomeDesc = styled(Typography)(({ theme }) => ({
     marginTop: 3,
-    fontFamily: 'Rubik, sans-serif',
     color: '#4F5665',
     lineHeight: '30px',
     fontSize: '18px',
@@ -76,7 +67,6 @@ export const SubtitleHeader = styled(Typography)(({ theme }) => ({
         lineHeight: '40px',
         paddingLeft: 20,
     },
-    fontFamily: 'Rubik, sans-serif',
     fontWeight: 'normal',
     lineHeight: '50px',
     marginLeft: 40
@@ -84,7 +74,6 @@ export const SubtitleHeader = styled(Typography)(({ theme }) => ({
 
 export const SubtitleDesc = styled(Typography)(({ theme }) => ({
     marginTop: 3,
-    fontFamily: 'Rubik, sans-serif',
     color: '#4F5665',
     lineHeight: '30px',
     fontSize: '16px',
@@ -99,7 +88,6 @@ export const SubtitleDesc = styled(Typography)(({ theme }) => ({
 //Planning
 export const PlanningHeader = styled(Typography)<{ isHeader?: boolean }>(({ theme, isHeader }) => ({
     marginTop: isHeader ? 50 : 20,
-    fontFamily: 'Rubik, sans-serif',
     fontSize: isHeader ? '35px' : '16px',
     lineHeight: isHeader ? '50px' : '30px',
     textAlign: isHeader ? 'start' : 'center',
@@ -114,7 +102,6 @@ export const PlanningHeader = styled(Typography)<{ isHeader?: boolean }>(({ them
 }));
 
 export const ChoosePlanningText = styled(Typography)<{ isHeader?: boolean }>(({ theme, isHeader }) => ({
-    fontFamily: 'Rubik, sans-serif',
     fontSize: isHeader ? '18px' : '16px',
     fontWeight: isHeader ? 'bold' : 'normal',
     textAlign: 'center',
@@ -122,7 +109,6 @@ export const ChoosePlanningText = styled(Typography)<{ isHeader?: boolean }>(({ 
 
 export const CommentHeader = styled(Typography)<{ isHeader?: boolean }>(({ theme, isHeader }) => ({
     marginTop: isHeader ? 50 : 20,
-    fontFamily: 'Rubik, sans-serif',
     fontSize: isHeader ? '35px' : '16px',
     lineHeight: isHeader ? '50px' : '30px',
     textAlign: isHeader ? 'start' : 'center',

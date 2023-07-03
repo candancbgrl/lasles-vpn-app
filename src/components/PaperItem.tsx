@@ -14,11 +14,10 @@ export const PaperItem : React.FC<CardItemProps> = ({ number, header, icon })=> 
                 {icon}
                 <Stack direction='column' sx={{ justifyContent: 'center', alignItems: 'flex-start' }}>
                     <Typography sx={{
-                        fontWeight: 'bold', fontFamily: 'Rubik, sans-serif',
+                        fontWeight: 'bold',
                         fontSize: {md:'25px',xs:'18px'}
                     }} >{number}+</Typography>
                     <Typography sx={{
-                        fontFamily: 'Rubik, sans-serif',
                         fontSize: {md:'20px',xs:'14px'}
                     }}>{header}</Typography>
                 </Stack>

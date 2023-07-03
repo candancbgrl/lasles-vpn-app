@@ -34,7 +34,7 @@ export const Navbar = () => {
                         <NavbarItem>Help</NavbarItem>
                     </Stack>
                     <Stack direction='row' spacing={3} sx={{ display: { lg: 'flex', xs: 'none' } }} >
-                        <Typography variant="subtitle1" sx={{ display: 'flex', alignItems: 'center',fontFamily: 'Rubik, sans-serif', }}  >
+                        <Typography variant="subtitle1" sx={{ display: 'flex', alignItems: 'center' }}  >
                             Sign in
                         </Typography>
                         <SignUp variant="outlined" color='error' >

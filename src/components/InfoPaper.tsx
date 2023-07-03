@@ -1,10 +1,7 @@
 import { Divider, Grid, Paper } from '@mui/material';
-
 import { ReactComponent as User }  from './SvgCodes/Icons/User.svg'
 import { ReactComponent as Location }  from './SvgCodes/Icons/Location.svg'
 import { ReactComponent as Server }  from './SvgCodes/Icons/Server.svg'
-
-
 import { PaperItem } from './PaperItem'
 
 export const InfoPaper = () => {
@@ -20,6 +17,5 @@ export const InfoPaper = () => {
                 </Grid>
             </Paper>
         </Grid>
-
     )
 }

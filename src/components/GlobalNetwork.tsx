@@ -5,7 +5,7 @@ import { PlanningHeader } from './Styled';
 import { ReactComponent as Network } from './SvgCodes/Network.svg'
 import { ReactComponent as AllApps } from './SvgCodes/AllApps.svg';
 
- 
+
 export const GlobalNetwork = () => {
     return (
         <Grid sx={{ backgroundColor: '#F6F6F6' }}>
@@ -15,10 +15,7 @@ export const GlobalNetwork = () => {
                     <Stack sx={{ maxWidth: {md:'550px',xs:'350px'} }}>
                         <PlanningHeader>See LaslesVPN everywhere to make it easier for you when you move locations.</PlanningHeader>
                     </Stack>
-
                 </Stack>
-
-
             </Grid>
             <Grid sx={{ justifyContent: 'center', display: 'flex', marginTop: {md:10,xs:0} }}>
                 <Network />

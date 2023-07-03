@@ -11,7 +11,7 @@ export const HomePage = () => {
                     <HeaderText
                     >Want anything to be easy with <Typography sx={{
                         fontSize: {md:'54px',xs:'40px'},
-                        fontFamily: 'Rubik, sans-serif', lineHeight: '80px'
+                        lineHeight: '80px'
                     }} component="span" fontWeight="bold">LaslesVPN</Typography>.</HeaderText>
                 </Grid>
                 <Grid md={10} mt={2} >
@@ -19,7 +19,7 @@ export const HomePage = () => {
                 </Grid>
                 <Grid md={9} mt={5} sx={{ display: 'flex',  justifyContent: {md: 'start',xs:'center'}, }}>
                     <GetStartedButton color='error' variant="contained">
-                        <Typography variant="subtitle1" sx={{ textTransform: 'none', fontFamily: 'Rubik, sans-serif', fontWeight: 'bold' }} >
+                        <Typography variant="subtitle1" sx={{ textTransform: 'none',fontWeight: 'bold' }} >
                             Get Started
                         </Typography>
                     </GetStartedButton>

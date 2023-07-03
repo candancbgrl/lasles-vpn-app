@@ -26,7 +26,7 @@ export const SubcribeCard = () => {
 
             <Grid item md={6} sx={{marginLeft:{xs:7,md:0},marginTop:{md:3,xs:0},}}>
               <GetStartedButton color='error' variant="contained">
-                <Typography variant="subtitle1" sx={{ textTransform: 'none', fontFamily: 'Rubik, sans-serif', fontWeight: 'bold' }} >
+                <Typography variant="subtitle1" sx={{ textTransform: 'none',fontWeight: 'bold' }} >
                   Subcribe Now
                 </Typography>
               </GetStartedButton>
